@@ -34,6 +34,7 @@ public class Login extends Constants {
 		Log1.info("User : "+driver.findElement(By.xpath("//a[@id='welcome']")).getText());
 		driver.findElement(By.xpath("//a[text()='Logout']")).click();
 		driver.close();
+		Log1.info("Test Succeeded");
 		/*lgnPage.Username.sendKeys(uid);
 		lgnPage.Password.sendKeys(pwd);
 		lgnPage.Login.click();
